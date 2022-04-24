@@ -1,0 +1,24 @@
+#todo-list li {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+#todo-list li button {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+
+.todo ul {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+}
