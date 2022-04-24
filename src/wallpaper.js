@@ -12,7 +12,7 @@ const backgrounds = [
 
 function initBackground() {
   const image = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-  document.body.style.backgroundImage = `url("/wallpaper/${image}")`;
+  document.body.style.backgroundImage = `url("https://han-jojo.github.io/momentum/wallpaper/${image}")`;
 }
 
 initBackground();
